@@ -1,5 +1,27 @@
 {
   "dependencies": {
+    "com.microsoft.mixedreality.openxr": {
+      "version": "file:MixedReality/com.microsoft.mixedreality.openxr-1.0.1.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "com.unity.xr.openxr": "1.2.2",
+        "com.unity.xr.arsubsystems": "4.1.7",
+        "com.unity.xr.arfoundation": "4.1.7"
+      }
+    },
+    "com.microsoft.mixedreality.sceneunderstanding": {
+      "version": "file:MixedReality/com.microsoft.mixedreality.sceneunderstanding-0.6.0.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {}
+    },
+    "com.microsoft.spatialaudio.spatializer.unity": {
+      "version": "file:MixedReality/com.microsoft.spatialaudio.spatializer.unity-1.0.196.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {}
+    },
     "com.unity.collab-proxy": {
       "version": "1.5.7",
       "depth": 0,
@@ -56,10 +78,12 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.subsystemregistration": {
-      "version": "1.0.6",
+      "version": "1.1.0",
       "depth": 2,
       "source": "registry",
-      "dependencies": {},
+      "dependencies": {
+        "com.unity.modules.subsystems": "1.0.0"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
@@ -102,6 +126,25 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
+    },
+    "com.unity.xr.arfoundation": {
+      "version": "4.1.7",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.xr.arsubsystems": "4.1.7",
+        "com.unity.xr.management": "4.0.1"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.xr.arsubsystems": {
+      "version": "4.1.7",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.subsystemregistration": "1.1.0"
+      },
+      "url": "https://packages.unity.com"
     },
     "com.unity.xr.legacyinputhelpers": {
       "version": "2.1.7",
