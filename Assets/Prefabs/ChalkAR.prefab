@@ -4817,6 +4817,7 @@ GameObject:
   - component: {fileID: 2479534995559116183}
   - component: {fileID: 2479534995559116182}
   - component: {fileID: 2026575031513084780}
+  - component: {fileID: 7458670721707676777}
   m_Layer: 0
   m_Name: ChalkAR
   m_TagString: Untagged
@@ -4915,3 +4916,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isActive: 0
+--- !u!114 &7458670721707676777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2479534995559116181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a485c8e3f2965b4b944f17051fe7794, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startScale: {x: 0, y: 0, z: 0}
+  endScale: {x: 0, y: 0, z: 0}
+  rotationAngle: {x: 0, y: 0, z: 0}
+  isAnimated: 0
+  isRotating: 0
+  isFloating: 0
+  isScaling: 0
+  rotationSpeed: 0
+  floatSpeed: 0
+  scaleSpeed: 0
+  floatRate: 0
+  scaleRate: 0
