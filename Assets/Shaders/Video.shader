@@ -6,14 +6,22 @@ Shader "Unlit/SponzaShader"
 	Properties
 	{
 		_MainTex ("Texture", 2D) = "white" {}
+		[Enum(CompareFunction)] _StencilComp("Stencil Comp", Int) = 3
 	}
 	SubShader
 	{
 		Tags { "RenderType"="Opaque" }
 		LOD 100
+		Cull front
 
 		Pass
 		{
+			Stencil
+			{
+				Ref 1
+				Comp [_StencilComp]
+			}
+			
 			CGPROGRAM
 			#pragma vertex vert
 			#pragma fragment frag
@@ -48,12 +56,13 @@ Shader "Unlit/SponzaShader"
 			
 			fixed4 frag (v2f i) : SV_Target
 			{
-				float3 normal = normalize(i.normal);
-				float3 lightDir = normalize(float3(0.0, 10.0, 10.0));
-				float l = max(dot(lightDir, normal), 0.0);
+				//float3 normal = normalize(i.normal);
+				//float3 lightDir = normalize(float3(0.0, 10.0, 10.0));
+				//float l = max(dot(lightDir, normal), 0.0);
 				float4 texCol = tex2D(_MainTex, i.uv);
-				fixed4 col = texCol * l + texCol * 0.4f;
-				return col;
+				//fixed4 col = texCol * l + texCol * 0.4f;
+				//return col;
+				return texCol;
 			}
 			ENDCG
 		}
