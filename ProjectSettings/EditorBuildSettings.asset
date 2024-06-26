@@ -7,10 +7,10 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Basic_Scene.unity
-    guid: 6c1cb0172cd50694ab33496969caa9cd
+    guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: a01a793f5fff19c40a49640ad3c5b345, type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 434740058e514704e863b9e728bbbf67, type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 41fe61063c5cd8d419b1e456424db756, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 4a0f81e0a2c368448a5e14e7cc650f19, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 83ec8dbbb281765439f33eb34cc88c73, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: c1b763c61c16e4f4c9b749e22652e7de, type: 2}
   m_UseUCBPForAssetBundles: 0

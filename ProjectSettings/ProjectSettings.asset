@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: ac9f5447916065e4c9b76a67e2d66222
+  productGUID: 54e69c2a6fb1e114f83ed5edf21d7ae0
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: Drevinci Creations
-  productName: ChalkZone
+  productName: ChalkZoneAR
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -141,12 +141,7 @@ PlayerSettings:
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
   bundleVersion: 0.1.0
-  preloadedAssets:
-  - {fileID: 11400000, guid: c677e5c4eb85b7849a8da406775c299d, type: 2}
-  - {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-  - {fileID: 11400000, guid: a01a793f5fff19c40a49640ad3c5b345, type: 2}
-  - {fileID: -8640393525567082942, guid: 434740058e514704e863b9e728bbbf67, type: 2}
-  - {fileID: 5433393488113271601, guid: 41fe61063c5cd8d419b1e456424db756, type: 2}
+  preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -858,16 +853,16 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: ChalkZone
+  metroPackageName: ChalkZoneAR
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: Assets/WSATestCertificate.pfx
+  metroCertificatePath: 
   metroCertificatePassword: 
-  metroCertificateSubject: Drevinci Creations
-  metroCertificateIssuer: Drevinci Creations
-  metroCertificateNotAfter: 80be3a57dbe4db01
-  metroApplicationDescription: ChalkZone
+  metroCertificateSubject: 
+  metroCertificateIssuer: 
+  metroCertificateNotAfter: 0000000000000000
+  metroApplicationDescription: ChalkZoneAR
   wsaImages: {}
-  metroTileShortName: ChalkZone
+  metroTileShortName: ChalkZoneAR
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
