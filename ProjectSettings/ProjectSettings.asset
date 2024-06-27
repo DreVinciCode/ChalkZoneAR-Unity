@@ -141,7 +141,12 @@ PlayerSettings:
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
   bundleVersion: 0.1.0
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 11400000, guid: c677e5c4eb85b7849a8da406775c299d, type: 2}
+  - {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  - {fileID: 11400000, guid: 4a0f81e0a2c368448a5e14e7cc650f19, type: 2}
+  - {fileID: 6786143617003387903, guid: 83ec8dbbb281765439f33eb34cc88c73, type: 2}
+  - {fileID: -4436066140692289404, guid: c1b763c61c16e4f4c9b749e22652e7de, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -855,11 +860,11 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: ChalkZoneAR
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: 
+  metroCertificatePath: Assets/WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
+  metroCertificateSubject: Drevinci Creations
+  metroCertificateIssuer: Drevinci Creations
+  metroCertificateNotAfter: 8028e53c07e7db01
   metroApplicationDescription: ChalkZoneAR
   wsaImages: {}
   metroTileShortName: ChalkZoneAR
