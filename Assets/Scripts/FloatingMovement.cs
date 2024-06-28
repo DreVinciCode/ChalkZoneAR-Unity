@@ -7,12 +7,17 @@ public class FloatingMovement : MonoBehaviour
 
     private Vector3 startPos;        // Starting position of the object
 
-    void Start()
+    private void Start()
+    {
+        ReInitialize();    
+    }
+
+    public void ReInitialize()
     {
         startPos = transform.position;
     }
 
-    void Update()
+    private void Update()
     {
         // Calculate the floating movement using sine function
         float newY = startPos.y + Mathf.Sin(Time.time * floatSpeed) * floatAmount;
