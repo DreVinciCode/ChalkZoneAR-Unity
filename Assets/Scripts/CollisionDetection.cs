@@ -8,5 +8,9 @@ public class CollisionDetection : MonoBehaviour
         {
             gameObject.SetActive(false);
         }
+
+        //logic for chalk
+        
+
     }
 }
